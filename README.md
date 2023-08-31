@@ -32,7 +32,7 @@ This is Todo List app built using React and style with css. The UI/UX of the app
  ## [Todo List Figma design](https://www.figma.com/file/mKu2rm0YktJhlNkgyJgaBa/Todo-List?type=design&node-id=0-1&mode=design&t=f08faKMeHaXOSNsL-0)
 
 # App Flow
-## [Todo List app flow](https://zpl.io/JEP9Jkr)
+## [Todo List app flow](https://www.figma.com/file/O8Ro31gwakgN9dV4a1jk76/Todo-List-App-Flow?type=design&node-id=0-1&mode=design&t=INrruqFVPWJHyyp2-0)
 
 # Notion
 ## [Notion Todo List Project](https://www.notion.so/43f93f1b2da345cfa9f4f051dd657ca0?v=435ff68f93f647929e81258d1eff08f3)
