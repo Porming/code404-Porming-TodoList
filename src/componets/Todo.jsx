@@ -13,8 +13,8 @@ export const Todo = ({task, deleteTodo, editTodo, toggleComplete}) => {
                 <label className={`${task.completed ? 'completed' : ''}`} onClick={() => toggleComplete(task.id)}>{task.task}</label>
               </div>
               <div className='btn'>
-                <button className='delete_btn' onClick={() => editTodo(task.id)}><img src={EBTN} alt='edit button'/></button>
-                <button className='delete_btn' onClick={() => deleteTodo(task.id)}><img src={DBTN} alt='delete button'/></button>
+                <button className='delete-btn' onClick={() => editTodo(task.id)}><img src={EBTN} alt='edit button'/></button>
+                <button className='delete-btn' onClick={() => deleteTodo(task.id)}><img src={DBTN} alt='delete button'/></button>
               </div>
             </div>
           </li>

@@ -45,7 +45,7 @@ export const TodoWrapper = () => {
   return (
     <>
         <div className='title'>
-          <h1>To Do List</h1>
+          <h1>ToDo List</h1>
         </div>
         <TodoForm addTodo={addTodo}/>
         {todos.map((todo) => 
@@ -63,7 +63,7 @@ export const TodoWrapper = () => {
         )}
 
         <div className='footer'>
-          <p>You have {todos.length} to do</p>
+          <p>{todos.length > 1 ? `You have ${todos.length} tasks todo` : `You have ${todos.length} task todo`}</p>
         </div>
 
     </>

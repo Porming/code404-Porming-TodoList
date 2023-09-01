@@ -1,4 +1,4 @@
-# [Live Link](https://todolist-gilt-zeta.vercel.app/)
+# [Demo App](https://todolist-gilt-zeta.vercel.app/)
 
 # Todo List App
 This Todo List app, It allow users to add tasks, edit task, delete task, and mark tasks as completed, and also show user how many todo tasks.
@@ -9,7 +9,6 @@ This is Todo List app built using React and style with css. The UI/UX of the app
 * React JS
 * CSS
 * Figma
-* Zeplin
 * Notion
 
 ### The app come with the following feature :
@@ -36,3 +35,37 @@ This is Todo List app built using React and style with css. The UI/UX of the app
 
 # Notion
 ## [Notion Todo List Project](https://www.notion.so/43f93f1b2da345cfa9f4f051dd657ca0?v=435ff68f93f647929e81258d1eff08f3)
+
+# Git Flow Method
+I used the Git Flow method for Todo List app project. This method helped me to manage my code changes effectively.
+
+### 1. Main Branch
+* Represents the stable and production-ready version.
+
+### 2. Develop Branch
+* Serves as the integration branch for ongoing development.
+* Any feature that created are merged into develop branch
+* Represents the latest state of the application with features being developed.
+
+### 3. Feature Branches 
+* Responsible for app features
+* Feature branches
+    * `feature/functions`
+    * `feature/updateRM`
+
+### 4. Release Branches
+* To prepare a new version of todo app for release:
+    * Create a release branch from the develop branch.
+    * Perform testing, bug fixes, and any final adjustments specific to the release.
+    * Release branch :
+        * `release/1.0`
+
+### 5. Bugfix Branches
+* If the code changes made from the feature branch were rejected after a release, sprint or demo, any necessary fixes after that should be done on the bugfix branch.
+    * Bugfix Branch:
+        * `bugfix/release/1.0`
+
+### 6. Hotfix Branches
+* used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on main instead of develop.
+
+
