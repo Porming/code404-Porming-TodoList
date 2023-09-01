@@ -13,7 +13,7 @@ export const EditTodoForm = ({editTodo, task}) => {
 
   return (
     <>
-        <form onSubmit={handleSubmit} className='input-form'>
+        <form onSubmit={handleSubmit} className='input-form edit-form'>
           <input value={value} onChange={(e) => setValue(e.target.value)} type="text" placeholder='Update task' />
           <button type='submit' className='edit-btn'>Edit</button>
         </form> 
