@@ -68,4 +68,7 @@ I used the Git Flow method for Todo List app project. This method helped me to m
 ### 6. Hotfix Branches
 * used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on main instead of develop.
 
+[Git flow reference](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
+* I follow this reference for creating the functions [Reference](https://www.youtube.com/watch?v=LoYbN6qoQHA&t=1146s)
+* I designed my own UI 
